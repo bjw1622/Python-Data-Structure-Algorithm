@@ -6,4 +6,4 @@ def factorial(value):
 
 if __name__ == '__main__':
     n = int(input('출력할 팩토리얼값을 입력하세요.:'))
-    print(f'{n}의 팩토리얼은 {factorial(n)}입니다.')
+    print(f'{n}의 팩토리얼은 {factorial(n)}입니다.')``````````````````````````````````````````````````````````````
