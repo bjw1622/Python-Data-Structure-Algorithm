@@ -4,3 +4,12 @@ sum = 0
 for i in range(1,n+1):
     sum += i
 print(f"1부터 {n}까지 정수의 합은 {sum}입니다.")
+
+#i를 카운터용 변수
+
+
+"""sum_gauss 방법
+
+sum = n * (n+1) // 2
+
+"""
