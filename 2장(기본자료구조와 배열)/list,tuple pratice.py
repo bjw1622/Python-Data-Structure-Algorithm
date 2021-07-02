@@ -15,3 +15,9 @@ print(list04)
 
 print(tuple01)
 print(tuple02)
+
+#언팩
+
+x = [1,2,3]
+a,b,c = x
+print(a,b,c)
