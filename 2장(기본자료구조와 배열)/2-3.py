@@ -1,17 +1,15 @@
 from max import max_of
 
-print('배열의 최댓값을 구합니다.')
+print("배열의 최댓값을 구합니다.")
 print('주의: "End"를 입력하면 종료합니다.')
-
-number = 0
-x = []
-
+x = 0
+data = []
 while True:
-    s = input(f"x[{number}]값을 입력하세요.:")
-    if s == 'End':
+    number = input(f"x[{x}]값을 입력하세요:")
+    if number == "End":
         break
-    x.append(int(s)) #배열의 맨 끝에 추가
-    number += 1
+    x += 1
+    data.append(int(number))
 
-print(f"{number}개를 입력했습니다.")
-print(f"최댓값은 {max_of(x)}입니다.")
+print(f"{x}개를 입력했습니다.")
+print(f"최댓값은 {max_of(data)}입니다.")
